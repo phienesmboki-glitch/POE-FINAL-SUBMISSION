@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Executive Overview
+## Executive Overview
 This repository hosts the end-to-end Natural Language Processing (NLP) and supervised machine learning pipeline engineered to address an increasing volume of negative customer reviews on public consumer channels (primarily Hello Peter). 
 
 The framework is structurally split into two core deliverables:
@@ -13,7 +13,7 @@ The framework is structurally split into two core deliverables:
 
 ---
 
-## 🛠️ Repository Components
+##  Repository Components
 
 | File Name | Format | Description |
 | :--- | :--- | :--- |
@@ -23,7 +23,7 @@ The framework is structurally split into two core deliverables:
 
 ---
 
-## 🚀 Technical Workflow & Implementation Summary
+## Technical Workflow & Implementation Summary
 
 ### 1. Data Integrity Profiling & EDA
 * Verified zero missing or corrupted `NaN` observations across text strings and target labels.
@@ -44,7 +44,7 @@ The framework is structurally split into two core deliverables:
 
 ---
 
-## 💡 Key Corporate Areas of Concern Discovered
+## Key Corporate Areas of Concern Discovered
 
 By isolating text features exclusively linked to low-satisfaction thresholds (Ratings $\le$ 2), the system programmatically flagged three critical administrative operational failure points:
 1. **OPD Scheduling & Queue Management:** Prolonged customer waiting rooms indicated by top keywords like *wait, time, queue, delay*.
@@ -53,7 +53,7 @@ By isolating text features exclusively linked to low-satisfaction thresholds (Ra
 
 ---
 
-## 💻 Setup, Installation & Reproduction
+## Setup, Installation & Reproduction
 
 ### Environmental Prerequisites
 Ensure your local Python installation contains the fundamental analytical dependencies:
